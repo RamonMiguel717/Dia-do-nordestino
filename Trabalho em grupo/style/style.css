@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+*,
+html, body {
+    padding: 100;
+    margin: 10;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: white;
+    scroll-behavior: smooth;
+    margin: 250px;
+}
+
+header {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    margin-left: 30px;
+    background-color:white;
+    display:flex;
+    align-items:center; 
+    justify-content:space-between; 
+    padding:10px 20px;
+    z-index:10;
+}
+
+.logo-container {
+    display:flex;
+}
+
+.logo-img {
+    width:130px;
+    height:auto;
+}
+
+nav.itens {
+    display:flex;
+    align-items:center; 
+}
+
+nav.itens .list {
+    display: flex;
+    list-style: none; 
+    margin-left: 20px;
+}
+
+nav.itens .list .list-item {
+    margin-left: 20px;
+}
+
+nav.itens .list .list-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+nav.itens .list .list-item a:hover {
+    background-color: #f0f0f0;
+}
+
+.historia-nordeste{
+    display:flex;
+    justify-content:space-between; 
+}
+.historia-nordeste h1{
+    size: 88px;
+}
+.historia-nordeste .texts{
+    display: list-item;
+    align-items: center;
+    padding:10px 20px;
+    text-decoration: none;
+}
+
+.historia-nordeste .imagem-cacto{
+    size: 10px;
+    padding: 40px;
+}
+
+.time-line{
+    padding-top: 120px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.chegada-portugueses{
+    padding-bottom: 60px;
+}
+.superior-chegada{
+    display:flex;
+    justify-content: space-between;
+}
+.superior-chegada .img-chegada{
+    padding-left: 50px;
+}
+
+.capitania-hereditaria{
+    padding-bottom: 60px;
+}
+.superior-capitania{
+    display: flex;
+    justify-content: space-between;
+}
+.superior-capitania .img-capitania{
+    padding-right: 50px;
+}
+.invasao-inglesa{
+    padding-bottom: 60px;
+}
+.superior-invasao{
+    display: flex;
+    justify-content: space-between;
+}
+.superior-invasao .img-invasao{
+    padding-left: 50px;
+}
+.Quilombo-dos-palmares{
+    padding-bottom: 60px;
+}
+.superior-quilombo{
+    display: flex;
+    justify-content: space-between;
+}
+.superior-quilombo .img-quilombo{
+    padding-right: 50px;
+}
+.Conjuracao-Baiana{
+    padding-bottom: 60px;
+}
+.superior-conjuracao{
+    display: flex;
+    justify-content: space-between;
+}
+.superior-conjuracao .img-conjuracao{
+    padding-left: 50px;
+}
+.Guerra-dos-Canudos{
+    padding-bottom: 60px;
+}
+.superior-guerra{
+    display: flex;
+    justify-content: space-between;
+}
+.superior-guerra .img-guerra{
+    padding-right: 50px;
+}
+h1{
+    font-size: 68px;
+}
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 35px;
+    font-weight: 400;
+    text-align: justify;
+}
